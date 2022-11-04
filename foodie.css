@@ -1,0 +1,58 @@
+section {
+    padding: 0;
+    margin: 0;
+   background-attachment: fixed;
+   max-width: max-content;
+
+} 
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    
+}
+
+body {
+    background-color: lightsalmon;
+}
+.navbar ul{
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+.navbar input{
+    border: 2px solid rgb(17, 1, 1);
+    border-radius: 14px;
+    padding: 6px 17px;
+    width: 150px;
+}
+.navbar li{
+    float:right;
+    list-style: none; 
+    margin: 15px 20px;
+    display: table-cell;
+}
+
+
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+    color:black;
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
